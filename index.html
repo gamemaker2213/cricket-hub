@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cricket Hub | Home</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #E9ECEF;
+  color: #26352D;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+
+header {
+  background: #F8F9FA;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #245D40;
+  letter-spacing: 1px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #26352D;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #245D40;
+}
+
+/* HERO */
+
+.hero {
+  width: 84%;
+  margin: 35px auto;
+  min-height: 420px;
+  background: #F8F9FA;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 65px 7%;
+}
+
+.hero-content {
+  max-width: 570px;
+}
+
+.hero h1 {
+  color: #1D3528;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #397B53;
+}
+
+.hero p {
+  color: #65736A;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 23px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.primary {
+  background: #245D40;
+  color: white;
+}
+
+.primary:hover {
+  background: #19472F;
+}
+
+.secondary {
+  border: 1px solid #245D40;
+  color: #245D40;
+}
+
+.secondary:hover {
+  background: #E8F0EB;
+}
+
+/* INTRODUCTION */
+
+.intro {
+  width: 84%;
+  margin: 30px auto;
+  padding: 35px;
+  background: #F8F9FA;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #245D40;
+  margin-bottom: 12px;
+  font-size: 27px;
+}
+
+.intro p {
+  color: #65736A;
+  max-width: 650px;
+  margin: auto;
+}
+
+/* BOOKING */
+
+.booking {
+  width: 84%;
+  margin: 30px auto;
+  background: #E0E8E2;
+  padding: 35px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.booking h2 {
+  color: #1D3528;
+  margin-bottom: 10px;
+}
+
+.booking p {
+  color: #52665A;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background: #F8F9FA;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  color: #65736A;
+  font-size: 13px;
+}
+
+/* MOBILE */
+
+@media(max-width: 650px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 17px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    width: 92%;
+    min-height: 350px;
+    padding: 45px 7%;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .intro, .booking {
+    width: 92%;
+    padding: 25px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">CRICKET HUB</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="prices.html">Prices</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+</header>
+
+<main>
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Your Game.<br>
+        Your Team.<br>
+        <span>Your Cricket Hub.</span>
+      </h1>
+
+      <p>
+        Bring your friends and family, book your
+        cricket slot and enjoy the game.
+        We've got everything ready for you!
+      </p>
+
+      <div class="buttons">
+
+        <a class="btn primary"
+        href="https://wa.me/923234985805?text=Assalam-o-Alaikum!%20I%20want%20to%20book%20a%20cricket%20slot%20at%20Cricket%20Hub.%20Please%20share%20the%20available%20timings%20and%20booking%20details.">
+          Book Now
+        </a>
+
+        <a class="btn secondary"
+        href="prices.html">
+          View Prices
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="intro">
+
+    <h2>Welcome to Cricket Hub</h2>
+
+    <p>
+      Your perfect destination for cricket,
+      fun and memorable moments with friends
+      and family. Everything you need for
+      an enjoyable cricket experience.
+    </p>
+
+  </section>
+
+  <section class="booking">
+
+    <h2>Ready for Your Next Match?</h2>
+
+    <p>
+      Book your slot today and get ready to play!
+    </p>
+
+    <a class="btn primary"
+    href="https://wa.me/923234985805?text=Assalam-o-Alaikum!%20I%20want%20to%20book%20a%20cricket%20slot.">
+      Book Your Slot
+    </a>
+
+  </section>
+
+</main>
+
+<footer>
+
+  © 2026 Cricket Hub. All Rights Reserved.
+
+</footer>
+
+</body>
+  </html>
+  
