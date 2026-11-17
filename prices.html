@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prices | Cricket Hub</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #E9ECEF;
+  color: #26352D;
+  line-height: 1.6;
+}
+
+header {
+  background: #F8F9FA;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  color: #245D40;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #26352D;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #245D40;
+}
+
+.container {
+  width: 84%;
+  margin: 35px auto;
+  padding: 45px 7%;
+  background: #F8F9FA;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #245D40;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #65736A;
+  margin-bottom: 30px;
+}
+
+.prices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #F1F4F2;
+  padding: 25px;
+  border: 1px solid #DCE2DE;
+  border-radius: 7px;
+}
+
+.card h2 {
+  color: #245D40;
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #26352D;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #65736A;
+  font-size: 14px;
+}
+
+.note {
+  margin-top: 25px;
+  color: #65736A;
+  font-size: 13px;
+}
+
+footer {
+  background: #F8F9FA;
+  text-align: center;
+  padding: 22px;
+  color: #65736A;
+  font-size: 13px;
+}
+
+@media(max-width:650px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    width: 92%;
+    padding: 35px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">CRICKET HUB</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="prices.html">Prices</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <h1>Our Pricing</h1>
+
+  <p class="subtitle">
+    Simple and transparent cricket ground booking rates.
+  </p>
+
+  <div class="prices">
+
+    <div class="card">
+      <h2>Day Booking</h2>
+      <div class="amount">Rs. 1,600</div>
+      <p>Per hour</p>
+      <p>All days</p>
+      <p>Morning / Daytime before sunset</p>
+    </div>
+
+    <div class="card">
+      <h2>Weekday Night</h2>
+      <div class="amount">Rs. 1,800</div>
+      <p>Per hour</p>
+      <p>Monday – Thursday</p>
+    </div>
+
+    <div class="card">
+      <h2>Weekend Night</h2>
+      <div class="amount">Rs. 2,000</div>
+      <p>Per hour</p>
+      <p>Friday – Sunday</p>
+    </div>
+
+  </div>
+
+  <p class="note">
+    All prices are in Pakistani Rupees (PKR).
+    For bookings and availability, please contact us.
+  </p>
+
+</main>
+
+<footer>
+  © 2026 Cricket Hub. All Rights Reserved.
+</footer>
+
+</body>
+</html>
